@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="kursevi.html">Kursevi</a></li>
+                <li><a href="cenovnik.html">Cenovnik</a></li>
+                <li><a href="#" class="aktivna">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Kontaktirajte nas</h1>
+        <p>Molimo vas da popunite formu u nastavku kako biste nas kontaktirali.</p>
+        <div class="Forma">
+            <form action="https://formspree.io/f/{form_id}" method="post">
+                <label for="Ime">Ime:</label>
+                <input type="text" id="Ime" name="Ime" required>
+
+                <label for="Prezime">Prezime:</label>
+                <input type="text" id="Prezime" name="Prezime" required>
+
+                <label for="email">Email adresa:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="Predmet">Predmet:</label>
+                <input type="text" id="Predmet" name="Predmet" required>
+
+                <label for="Poruka">Poruka:</label>
+                <textarea id="Poruka" name="Poruka" rows="4" required></textarea>
+
+                <button type="submit">Pošaljite</button>
+            </form>
+        </div>
+    </main>
+    <div class="Drustvene">
+        <footer>
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/x.png" alt="Twitter"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.webp" alt="Instagram"></a>
+        </footer>
+    </div>
+</body>
+
+</html>
